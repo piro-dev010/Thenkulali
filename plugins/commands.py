@@ -23,9 +23,9 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+mbCbDPw7v485MTBl'),
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+v0GPXWFNq1k5Nzc1'),
             ],[
-            InlineKeyboardButton('💠 Group 💠', url='https://t.me/tamilmoviesserach')
+            InlineKeyboardButton('💠 Group 💠', url='https://t.me/+HW_Z5ly5XC0wZWY1')
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -43,8 +43,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+mbCbDPw7v485MTBl'),
-            InlineKeyboardButton('💠 Group 💠', url='https://t.me/tamilmoviesserach')
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+v0GPXWFNq1k5Nzc1'),
+            InlineKeyboardButton('💠 Group 💠', url='https://t.me/+HW_Z5ly5XC0wZWY1')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
@@ -86,8 +86,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+mbCbDPw7v485MTBl'),
-            InlineKeyboardButton('💠 Group 💠', url='https://t.me/tamilmoviesserach')
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+v0GPXWFNq1k5Nzc1'),
+            InlineKeyboardButton('💠 Group 💠', url='https://t.me/+HW_Z5ly5XC0wZWY1')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
@@ -239,7 +239,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='youtube.com/OpusTechz') ] ] ),
+        reply_markup=
         protect_content=True if pre == 'filep' else False,
         )
                     
