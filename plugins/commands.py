@@ -41,15 +41,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
+            InlineKeyboardButton(' Todays Trending ', switch_inline_query_current_chat='')
+            ],[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+v0GPXWFNq1k5Nzc1'),
-            InlineKeyboardButton('💠 Group 💠', url='https://t.me/+HW_Z5ly5XC0wZWY1')
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+LZOl5Aryw9M5MTQ1'),
+            InlineKeyboardButton('💠 Group 💠', url='https://t.me/tamilmoviesserach')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
-            ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCwfySgatCAh3a1-KAfo0P5Q')
+            InlineKeyboardButton('Comands', callback_data='help'),
+            InlineKeyboardButton('close', callback_data='close_data')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -84,14 +84,16 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
+            InlineKeyboardButton(' Todays Trending ', switch_inline_query_current_chat='')
+            ],[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+v0GPXWFNq1k5Nzc1'),
-            InlineKeyboardButton('💠 Group 💠', url='https://t.me/+HW_Z5ly5XC0wZWY1')
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+LZOl5Aryw9M5MTQ1'),
+            InlineKeyboardButton('💠 Group 💠', url='https://t.me/tamilmoviesserach')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
-        ]]
+            InlineKeyboardButton('Comands', callback_data='help'),
+            InlineKeyboardButton('close', callback_data='close_data')
+        ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
