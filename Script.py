@@ -1,8 +1,11 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 ♥️♥️🔥"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+I am the Movie Searching Bot of Film Forum, You can search available movies in inline or by sending movie name here, and you can also add me in your Groups also.."""
+    HELP_TXT = """Main Available Commands
+
+/trending - Get Today's Trending
+/report - Report a File
+/request - Request a Movie"""
     ABOUT_TXT = """<b>✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: Thenkulali</b>
 <b>✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Riyazismas>Vijay Karthik</a></b>
 <b>✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
@@ -411,6 +414,23 @@ To Get Sticker ID
       
     STATUS = """{}\n<b>Chat Member Status</b>**\n\n```<i>Recently``` - {}\n```Within Week``` - {}\n```Within Month``` - {}\n```Long Time Ago``` - {}\nDeleted Account - {}\nBot - {}\nUnCached - {}</i>
 """
-    REQUEST_TXT ="""You should [/start]  @thenkulalibot for request any movie, Try again after Subscribed in @Thenkulalibot"""
+    
+    REQUEST_TXT ="""You should [/start](https://t.me/@Thenkulalibot?start=subscribe)  @thenkulalibot for request any movie, Try again after Subscribed in @Thenkulalibot"""
+    
+    TRENDING_TXT = """Today's Trending..⚡
+
+ 1. Shamshera (2022) 
+ 2. K.G.F: Chapter 2 (2022) 
+ 3. Vikram (2022) 
+ 4. Bhool Bhulaiyaa 2 (2022) 
+ 5. God, Sex and Truth (2018) 
+ 6. Antim: The Final Truth (2021) 
+ 7. Runway 34 (2022) 
+ 8. Shaadi Mein Zaroor Aana (2017) 
+ 9. Pirates of the Caribbean: The Curse of the Black Pearl (2003) 
+ 10. Sooryavanshi (2021) 
+
+And 374 more.."""
+    
     
     
