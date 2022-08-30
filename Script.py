@@ -4,7 +4,6 @@ I am the Movie Searching Bot of Film Forum, You can search available movies in i
     HELP_TXT = """Main Available Commands
 
 /trending - Get Today's Trending
-/report - Report a File
 /request - Request a Movie"""
     ABOUT_TXT = """<b>✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: Thenkulali</b>
 <b>✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Riyazismas>Vijay Karthik</a></b>
